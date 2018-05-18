@@ -1,6 +1,7 @@
 {
   "short_name": "Next Bar",
   "name": "Next Bar",
+  "homepage": "https://dsalvagni.github.io/nextbar",
   "icons": [
     {
       "src": "favicon.ico",
