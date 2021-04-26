@@ -14,7 +14,7 @@ class NearbyPlaces {
             return this.nearby_promise
         }
         this.nearby_promise = new Promise((resolve, reject) => {
-            axios.get('https://cors-proxy.htmldriven.com/?url=https://api.yelp.com/v3/businesses/search',
+            axios.get('https://jsonp.afeld.me/?callback=?&url=https://api.yelp.com/v3/businesses/search',
                 {
                     headers: {
                         'Authorization': "Bearer " + Settings.YELP_API_KEY
